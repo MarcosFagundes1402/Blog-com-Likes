@@ -1,0 +1,41 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #222;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+}
+
+article{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+body button {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+section button{
+    background-color: #333;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 5px 14px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button:hover{
+    background-color: #222;
+    cursor: pointer;
+}
+
